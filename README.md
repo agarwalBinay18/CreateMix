@@ -3,7 +3,8 @@
 
 ### SCREENSHOT
 
-![image](https://user-images.githubusercontent.com/57033144/175147512-83115b72-e41d-4601-9e03-ca62d1f4c9b6.png)
+![image](https://user-images.githubusercontent.com/57033144/175150649-fd2c2da0-8591-4f43-ac5f-086dc18bc24e.png)
+
 
 
 ## Installation & Set Up
