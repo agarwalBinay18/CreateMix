@@ -5,7 +5,9 @@
 
 ![image](https://user-images.githubusercontent.com/57033144/175150649-fd2c2da0-8591-4f43-ac5f-086dc18bc24e.png)
 
+### [UPDATED] SCREENSHOT
 
+![image](https://user-images.githubusercontent.com/57033144/175533098-c1996c22-4650-4f6d-a156-63692de47abf.png)
 
 ## Installation & Set Up
 
