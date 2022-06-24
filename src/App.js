@@ -7,7 +7,7 @@ import CustomizedDialogs from './components/dialog';
 function App() {
   return (
     <div className="App">
-      <CustomizedDialogs title="Create Chargemix">
+      <CustomizedDialogs title="Create Chargemix" >
       <CreateMix />
         </CustomizedDialogs>
       

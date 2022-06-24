@@ -10,12 +10,14 @@ import MuiDialogActions from '@material-ui/core/DialogActions';
 import IconButton from '@material-ui/core/IconButton';
 import CloseIcon from '@material-ui/icons/Close';
 import Typography from '@material-ui/core/Typography';
+import InsertDriveFileOutlinedIcon from '@material-ui/icons/InsertDriveFileOutlined';
 
 const styles = (theme: Theme) =>
   createStyles({
     root: {
       margin: 0,
       padding: theme.spacing(2),
+
       // right: theme.spacing(20000),
       // left: theme.spacing(20000),
       // top: theme.spacing(20000),
@@ -37,7 +39,10 @@ export interface DialogTitleProps extends WithStyles<typeof styles> {
 const DialogTitle = withStyles(styles)((props: DialogTitleProps) => {
   const { children, classes, onClose, ...other } = props;
   return (
-    <MuiDialogTitle disableTypography className={classes.root} {...other}>
+  
+   
+   <MuiDialogTitle disableTypography className={classes.root} {...other} >
+   
       <Typography variant="h6">{children}</Typography>
       {onClose ? (
         <IconButton aria-label="close" className={classes.closeButton} onClick={onClose}>
@@ -45,7 +50,9 @@ const DialogTitle = withStyles(styles)((props: DialogTitleProps) => {
         </IconButton>
       ) : null}
     </MuiDialogTitle>
+    
   );
+
 });
 
 const DialogContent = withStyles((theme: Theme) => ({
@@ -80,7 +87,10 @@ export default function CustomizedDialogs({children,title}) {
         TEST
       </Button>
       <Dialog aria-labelledby="customized-dialog-title" open={open} maxWidth='xl'>
-        <DialogTitle id="customized-dialog-title" onClose={handleClose}>
+        <DialogTitle id="customized-dialog-title" onClose={handleClose}  >
+        <IconButton >
+         <InsertDriveFileOutlinedIcon/>
+        </IconButton>
         {title}
         </DialogTitle>
         <DialogContent dividers>
